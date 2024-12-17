@@ -37,7 +37,9 @@ void initializeGame() {
     printf("move >>>> For moving another room\n");
     printf("pickup >>>> For picking up the items\n");
     printf("inventory >>>> For checking the inventory\n");
-    printf("attack >>>> For attacking the creatures\n\n");
+    printf("attack >>>> For attacking the creatures\n");
+    printf("save >>>> For saving game\n");
+    printf("load >>>> For loading game\n\n");
     printf("Write a command \n");
 
     myInventory = malloc(sizeof(Inventory));
